@@ -9,7 +9,7 @@
                     <input type="text" v-validate="'required'" :class="{'has-error': errors.has('name')}" name="name" v-model="wolfData.name" placeholder="Enter Name">
                     <input type="text" v-validate="'required'" :class="{'has-error': errors.has('gender')}" name="gender" v-model="wolfData.gender" placeholder="Enter Gender">
                     <input type="text"  v-validate="'required|date_format:yyyy-MM-dd'" :class="{'has-error': errors.has('birthday')}" name="birthday" v-model="wolfData.birthday" placeholder="Enter Birthday (yyyy-MM-dd)">
-                    <input type="submit" value="submit">
+                    <input type="submit" value="Add">
                  </div>
             </form>
          </div>

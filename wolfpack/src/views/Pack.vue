@@ -24,7 +24,7 @@
                 <div class="add-wolf">
                     <input type="text" v-validate="'required'" :class="{'has-error': errors.has('name')}" name="name" v-model="pack.name" placeholder="Name">
                     <input type="text" v-validate="'required'" :class="{'has-error': errors.has('lat')}" name="lat" v-model="pack.lat" placeholder="Latitude">
-                    <input type="text" v-validate="'required'" :class="{'has-error': errors.has('lng')}" name="lng" v-model="pack.lng" placeholder="Longitude">
+                    <input type="text" v-validate="'required|numeric'" :class="{'has-error': errors.has('lng')}" name="lng" v-model="pack.lng" placeholder="Longitude">
                     <input type="submit" value="Update">
                  </div>
                  

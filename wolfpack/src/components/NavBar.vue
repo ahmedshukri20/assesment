@@ -4,7 +4,7 @@
             <span class="navbar-toggle" id="js-navbar-toggle">
                     <i class="fas fa-bars"></i>
                 </span>
-           <router-link class="logo" to="/"> Wolfpack </router-link>
+           <router-link class="logo" to="/"> Wolverine </router-link>
             <ul class="main-nav" id="js-menu">
                 <li>
                      <router-link class="nav-links" to="/"> Wolves </router-link>
